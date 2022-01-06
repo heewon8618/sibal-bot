@@ -1,6 +1,5 @@
 const config = {
-  prefix: "!",
-  token: "OTI4MjU0NTYwMzU3NzI4MjY3.YdWGbQ.c-Skr86sZ-USzQGLSa7O2PFeeFE"
+  prefix: "!"
 }
 
 const { Client, Collection } = require("discord.js");
