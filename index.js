@@ -1,7 +1,7 @@
 const config = {
   prefix: "!"
 }
-
+const mySecret = process.env['TOKEN']
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const AppleMusic  = require("erela.js-apple");
@@ -95,4 +95,4 @@ client.on('message',msg=>{
 })
 
 
-client.login(config.token);
+client.login(mySecret);
