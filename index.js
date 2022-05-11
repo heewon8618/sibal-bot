@@ -49,7 +49,7 @@ client.manager = new Manager({
   ))
   .on("trackStart", (player, track) => {
     const channel = client.channels.cache.get(player.textChannel);
-    channel.send(`Now playing: \`${track.title}\`, 이시발놈이 틀었음 \`${track.requester.tag}\`.`);
+    channel.send(`Now playing: \`${track.title}\`, 님이 틀었습니다. \`${track.requester.tag}\`.`);
   })
   .on("queueEnd", player => {
     const channel = client.channels.cache.get(player.textChannel);
