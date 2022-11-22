@@ -79,13 +79,13 @@ client.on("message", async message => {
 });
 
 client.on('message',msg=>{
-  if(msg.content === 'ㅅㅂ'){
-    msg.reply('뭐래 병신이 ㅋ')
+  if(msg.content === '하이'){
+    msg.reply('안녕하세요')
   }
 })
 client.on('message',msg=>{
   if(msg.content === 'ㅋㅋㅋㅋ'){
-    msg.reply('뭘 쪼개')
+    msg.reply('왜 웃는거죠 휴먼')
   }
 })
 client.on('message',msg=>{
